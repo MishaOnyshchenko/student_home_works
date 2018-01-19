@@ -1,0 +1,26 @@
+public class HomeWork {
+int numChasov;
+int kolHomeWorc;
+public HomeWork() {
+}
+public HomeWork(int num, int home) {
+}
+
+    public int getNumChasov() {
+        return num;
+    }
+
+    public void setNumChasov(int num) {
+        this.num = num;
+    }
+    
+       public int getKolHomeWorc() {
+        return num;
+    }
+
+    public void setKolHomeWorc(int num) {
+        this.num = num;
+    }
+    
+
+}
