@@ -1,3 +1,4 @@
+public class HomeWork{
 private int hours;
 private int works;
 
