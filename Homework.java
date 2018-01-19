@@ -1,3 +1,4 @@
+public class void Homework {
 int Num_Home;
 int Recourses;
 public int getNum_Home(){
@@ -11,4 +12,5 @@ return.this Recourses;
 }
 public void setRecourses(int Recourses){
 this.Recourses=Recourses;
+}
 }
