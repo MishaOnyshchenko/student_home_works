@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Student [] studMass= new Student[40];
+        Student[] studMass= new Student[40];
         int countClass_A = 0;
         int countClass_B = 0;
         for (int i = 0; i < 40; i++) {
@@ -25,7 +25,7 @@ public class Main {
             n = 12;
         }
         int m = 0;
-        Student [] students_A = new Student[n];
+        Student[] students_A = new Student[n];
         for (int i = 0; i < n; i++){
             for (int j = m; j < studMass.length; j++){
                 if (studMass[j].getAge() < 12) {
@@ -44,7 +44,7 @@ public class Main {
         else {
             k = 15;
         }
-        Student [] students_B = new Student[k];
+        Student[] students_B = new Student[k];
         int k1 = 0;
         for (int i = 0; i < k; i++){
             for (int j = k1; j < studMass.length; j++){
