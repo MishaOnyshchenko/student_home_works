@@ -7,15 +7,27 @@ public class Student {
     private int age;
 
     public Student() {
-        setName();
-        setAge();
+        generateAge();
+        generateName();
     }
 
     public String getName() {
         return name;
     }
+    // Todo update - done!
+    public void setName(String name) {
+        this.name = name;
+    }
 
-    public void setName() {
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+
+        this.age = age;
+    }
+    public void generateName(){
         String [] str = new String [20];
         str[0] = "Лютик";
         str[1] = "Геральт";
@@ -39,13 +51,7 @@ public class Student {
         str[19] = "Лера";
         this.name = str[ThreadLocalRandom.current().nextInt(0, 19 + 1) ];
     }
-
-    public int getAge() {
-
-        return age;
-    }
-
-    public void setAge() {
+    public void generateAge(){
         int randomNum = ThreadLocalRandom.current().nextInt(7, 16 + 1) ;
         this.age = randomNum;
     }

@@ -18,6 +18,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+
         ClassRoom classA = createNewClass("A", 12);
         ClassRoom classB = createNewClass("B", 15);
 
@@ -103,7 +104,7 @@ public class Main {
             String studName = "A" + randomAge  + "cov";
             Student stud = new Student(studName, randomAge);
             students[i] = stud;
-            studentCountByAgeInfo(randomAge);
+//            studentCountByAgeInfo(randomAge);
 
         }
         System.out.println(students.length + " all student in school");

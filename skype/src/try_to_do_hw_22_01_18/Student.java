@@ -1,18 +1,10 @@
-package hw_16_01_18;
+package try_to_do_hw_22_01_18;
+
+import java.util.concurrent.ThreadLocalRandom;
 
 public class Student {
     private String name;
     private int age;
-
-
-    public Student() {
-    }
-
-    public Student(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-
 
     public String getName() {
         return name;
@@ -29,5 +21,4 @@ public class Student {
     public void setAge(int age) {
         this.age = age;
     }
-
 }
