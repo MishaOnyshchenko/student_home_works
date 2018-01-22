@@ -1,5 +1,8 @@
 package hw_16_01_18;
 
+
+// Todo Что с импортами?
+// Todo где методы которые должны быть у школы?
 public class School {
 
 

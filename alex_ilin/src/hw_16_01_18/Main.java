@@ -8,6 +8,11 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
+
+// Todo где комментарии хода выполнения прогрыммы?
+// Todo как можно получить адресс у конкретного студента?
+//Todo net mmest  какую несет нагрузку?
+// Todo где комментарии хода выполнения прогрыммы?
 public class Main {
 
     private static int studentAgeFrom7To12Count = 0;
