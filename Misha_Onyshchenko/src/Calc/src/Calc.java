@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 public class Calc {
     public static void main(String[] args) {
         double num1 = getDouble();
