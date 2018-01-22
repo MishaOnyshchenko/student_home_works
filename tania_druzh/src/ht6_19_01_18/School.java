@@ -1,5 +1,8 @@
 package ht6_19_01_18;
 
+
+// Todo  School не должен содержать main
+// Todo запуск программы (вывод логики по всей школе и отдельным классам) производится в одном ранере
 public class School {
     private int number;
     private Adres adres;
@@ -71,7 +74,7 @@ public class School {
 
     /*показывающий сколько и какие классы есть в школе*/
     public void printClassList() {
-        System.out.println("There are " + classList.length + " classes in school.");
+        System.out.println("There areThere are " + classList.length + " classes in school.");
         for (ClassRoom classR : classList) {
             System.out.println("Class " + classR.getClassWord() + " with limit " + classR.getClassLimit() + " and language " + classR.getLang());
 
@@ -129,7 +132,6 @@ public class School {
             }
         }
     }
-
 
 
     private static int colStudents = 30;

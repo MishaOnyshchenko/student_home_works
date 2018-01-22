@@ -4,6 +4,9 @@ import ht6_19_01_18.ClassRoom;
 import ht6_19_01_18.Student;
 
 import java.util.Scanner;
+// Todo  проанализировать и продумать - где в коде выполняются аналогичные действия -шаги.
+// Todo  Возможно стоит вынести в методы?
+// Todo  Задача метода-  неоднократное использование и переиспользование.
 
 public class Main {
     private static int colStudents = 40;
